@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        // singly linked list
       LinkedList list = new LinkedList();
       list.insertFirst(1);
       list.insertFirst(5);
@@ -15,6 +16,7 @@ public class Main {
 
       System.out.println(list.delete(5));
       list.display();
+        // 
     }
 
 
